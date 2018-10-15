@@ -1,0 +1,223 @@
+/****** common ******/
+body {
+    background: #ffffff;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar-inverse {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.navbar-inverse .navbar-header .navbar-brand {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+.mdl-grid.algo-about {
+    justify-content: center;
+    background: #f4f4f4;
+}
+
+.algo-profile-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #F05F40;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 8px 15px 8px 10px;
+}
+
+
+code {
+    padding: 3px 4px;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+/* custom footer if needed */
+.mdl-mini-footer.algo-footer {
+    background: #222222;
+}
+
+
+
+/****** Index Page *******/
+
+.content-grid.mdl-grid.algo-grid-intro {
+    background: #000000;
+    /* top: skip the navbar, bottom: 0px, left/right: keep the same: 8px */
+    padding: 0px 8px 0px 8px;
+}
+
+.content-grid.mdl-grid.algo-grid-bg-primary {
+    background: #000000;
+    /* top: skip the navbar, bottom: 0px, left/right: keep the same: 8px */
+    padding: 50px 8px 0px 8px;
+}
+.mdl-cell.algo-cell-bg-primary {
+    margin: 0px auto;
+}
+
+.algo-bg-primary {
+    width: 100%;
+    height: 100%;
+    max-width: 1080px;
+    max-height: 640px;
+    display: block;
+    margin: 0px auto;
+}
+
+.algo-btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin: 0px 6px;
+}
+.algo-btn:hover,
+.algo-btn:focus,
+.algo-btn.focus,
+.algo-btn:active,
+.algo-btn.active,
+.open > .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #ee4b28;
+    border-color: #ed431f;
+}
+
+/****** List Page *******/
+h4.algo-title {
+    margin-left:15px;
+}
+
+.card-square.mdl-card {
+    width: 100%;
+    height: 250px;
+}
+
+.card-square > .mdl-card__title {
+    color: #fff;
+    background: #46B6AC;
+}
+
+.mdl-card__title-text.algo-video-duration {
+    font-size: 12px;
+}
+
+
+/****** Pro Page ******/
+.content-grid.mdl-grid.algo-grid-center {
+    justify-content: center;
+}
+
+/****** Signup & Login Page ******/
+.algo-a {
+    color: #65697f;
+    text-decoration: underline;
+}
+
+.input-group-addon {
+    min-width: 40px;
+}
+
+
+
+/***********  Landing Page  *************/
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../images/header.jpg');
+    text-align: center;
+    color: white;
+}
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 100px;
+    width: 100%;
+}
+header .header-content .header-content-inner h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+    }
+    header .header-content .header-content-inner {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 50px;
+    }
+    header .header-content .header-content-inner p {
+        font-size: 18px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+section {
+    padding: 10px 0;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.algo-bg-about {
+    background-color: #f4f4f4;
+}
+.algo-bg-footer {
+    background-color: #222222;;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}

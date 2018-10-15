@@ -1,0 +1,22 @@
+/****** Detail Page ******/
+.content-grid.mdl-grid.algo-grid-player-background {
+    background: #000000;
+    /* top: skip the navbar, bottom: 0px, left/right: keep the same: 8px */
+    padding: 50px 8px 0px 8px;
+}
+.mdl-cell.algo-cell-player-background {
+    margin: 0px auto;
+}
+
+.content-grid.mdl-grid.algo-grid-content {
+    /* top/bottom: leave some space; left/right: keep the same: 8px */
+    padding: 0 8px 30px 8px;
+}
+.mdl-cell.algo-cell-content {
+    margin: 0px auto;
+}
+
+/* highlightjs, disable auto line wrap*/
+.hljs {
+    white-space: pre;
+}
