@@ -127,9 +127,14 @@ h4.algo-title {
 }
 
 
-/****** Pro Page ******/
+/****** Plan Page ******/
 .content-grid.mdl-grid.algo-grid-center {
     justify-content: center;
+}
+
+.mdl-grid.algo-plan-panel {
+    justify-content: center;
+    margin-top: 50px;
 }
 
 /****** Signup & Login Page ******/
