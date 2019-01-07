@@ -61,9 +61,9 @@ code {
 
 /* badge */
 .badge {
-    padding: 1px 9px 2px;
-    font-size: 12.025px;
-    font-weight: bold;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 300;
     white-space: nowrap;
     color: #ffffff;
     background-color: #999999;
@@ -76,35 +76,94 @@ code {
     text-decoration: none;
     cursor: pointer;
 }
-.badge-error {
+.badge-red {
     background-color: #b94a48;
 }
-.badge-error:hover {
+.badge-red:hover {
     background-color: #953b39;
 }
-.badge-warning {
+.badge-orange {
     background-color: #f89406;
 }
-.badge-warning:hover {
+.badge-orange:hover {
     background-color: #c67605;
 }
-.badge-success {
+.badge-green {
     background-color: #468847;
 }
-.badge-success:hover {
+.badge-green:hover {
     background-color: #356635;
 }
-.badge-info {
+.badge-deep-orange {
+    background-color: #FF7043;
+}
+.badge-deep-orange:hover {
+    background-color: #F4511E;
+}
+.badge-blue {
     background-color: #3a87ad;
 }
-.badge-info:hover {
+.badge-blue:hover {
     background-color: #2d6987;
 }
-.badge-inverse {
+.badge-black {
     background-color: #333333;
 }
-.badge-inverse:hover {
+.badge-black:hover {
     background-color: #1a1a1a;
+}
+
+.badge-inverse {
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+.badge-inverse:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.badge-inverse-red {
+    color: #b94a48;
+}
+.badge-inverse-red:hover {
+    color: #953b39;
+}
+.badge-inverse-orange {
+    color: #f89406;
+}
+.badge-inverse-orange:hover {
+    color: #c67605;
+}
+.badge-inverse-green {
+    color: #468847;
+}
+.badge-inverse-green:hover {
+    color: #356635;
+}
+.badge-inverse-deep-orange {
+    color: #FF7043;
+}
+.badge-inverse-deep-orange:hover {
+    color: #F4511E;
+}
+.badge-inverse-blue {
+    color: #3a87ad;
+}
+.badge-inverse-blue:hover {
+    color: #2d6987;
+}
+.badge-inverse-black {
+    color: #333333;
+}
+.badge-inverse-black:hover {
+    color: #1a1a1a;
 }
 
 
