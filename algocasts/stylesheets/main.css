@@ -127,6 +127,7 @@ code {
 }
 .badge-inverse:hover {
     text-decoration: none;
+    background-color: #cccccc;
     cursor: pointer;
 }
 .badge-inverse-red {
