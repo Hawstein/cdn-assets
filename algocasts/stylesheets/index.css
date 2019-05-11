@@ -1,0 +1,82 @@
+/****** Index Page *******/
+
+/****** TODO: useless, remove. BEGIN *******/
+.content-grid.mdl-grid.algo-grid-intro {
+    background: #000000;
+    /* top: skip the navbar, bottom: 0px, left/right: keep the same: 8px */
+    padding: 0px 8px 0px 8px;
+}
+
+.content-grid.mdl-grid.algo-grid-bg-primary {
+    background: #000000;
+    /* top: skip the navbar, bottom: 0px, left/right: keep the same: 8px */
+    padding: 50px 8px 0px 8px;
+}
+.mdl-cell.algo-cell-bg-primary {
+    margin: 0px auto;
+}
+
+.algo-bg-primary {
+    width: 100%;
+    height: 100%;
+    max-width: 1080px;
+    max-height: 640px;
+    display: block;
+    margin: 0px auto;
+}
+
+/****** TODO: useless, remove. END *******/
+
+.navbar-algo-transparent {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar-algo-transparent .navbar-header .navbar-brand {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.navbar-algo-transparent .navbar-collapse .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #eee;
+}
+
+.navbar-algo-transparent .navbar-collapse .navbar-nav>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-algo-transparent .navbar-collapse .navbar-nav > .active > a {
+    color: #fff;
+}
+
+.navbar-algo-transparent .navbar-toggle .icon-bar {
+    background-color: #c2c2c2;
+}
+
+.navbar-algo-transparent .navbar-collapse, .navbar-algo .navbar-form {
+    border-color: #c2c2c2;
+}
+
+
+/*** algo-btn ***/
+.algo-btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    border-radius: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    margin: 0px 6px;
+}
+.algo-btn:hover,
+.algo-btn:focus,
+.algo-btn.focus,
+.algo-btn:active,
+.algo-btn.active,
+.open > .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #ee4b28;
+    border-color: #ed431f;
+}

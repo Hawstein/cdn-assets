@@ -11,7 +11,7 @@ BACKGROUND COLORS
 }
 
 .db-bk-color-three {
-    background-color: #47887E;
+    background-color: #fff;
 }
 
 .db-bk-color-six {
@@ -38,12 +38,12 @@ PRICING STYLES
 
 
 .db-pricing-eleven {
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin: 50px auto 30px auto;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-    color: #fff;
+    color: #212529;
     line-height: 30px;
+    max-width: 336px;
 }
 
 .db-pricing-eleven ul {
@@ -54,8 +54,8 @@ PRICING STYLES
 }
 
 .db-pricing-eleven ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     cursor: pointer;
 }
 
@@ -65,15 +65,16 @@ PRICING STYLES
 
 
 .db-pricing-eleven .price {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.03);
     padding: 40px 20px 20px 20px;
     font-size: 60px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: #212529;
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .db-pricing-eleven .price small {
-    color: #B8B8B8;
+    color: #212529;
     display: block;
     font-size: 12px;
     margin-top: 22px;

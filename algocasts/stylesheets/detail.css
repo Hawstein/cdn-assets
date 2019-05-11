@@ -37,9 +37,17 @@
     color: black;
 }
 
+.previous:hover {
+    text-decoration: none;
+}
+
 .next {
     background-color: #F05F40;
     color: white;
+}
+
+.next:hover {
+    text-decoration: none;
 }
 
 .round {

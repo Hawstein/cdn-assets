@@ -1,5 +1,5 @@
 .mdl-grid.algo-signup-login {
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
     padding: 50px 8px 50px 8px;
 }
