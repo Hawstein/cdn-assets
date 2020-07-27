@@ -1,0 +1,246 @@
+/****** common ******/
+body {
+    background: #ffffff;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-hawstein {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+.navbar-hawstein .navbar-header .navbar-brand {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.navbar-hawstein .navbar-collapse .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.navbar-hawstein .navbar-collapse .navbar-nav > .active > a {
+    color: #000;
+}
+
+
+.navbar-hawstein .navbar-toggle .icon-bar {
+    background-color: #FB0008;
+}
+
+.navbar-hawstein .navbar-collapse, .navbar-hawstein .navbar-form {
+    border-color: #c2c2c2;
+}
+
+.hawstein-display {
+    display: block;
+}
+
+.hawstein-hide {
+    display: none;
+}
+
+code {
+    padding: 3px 4px;
+    color: #FB0008;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+/* custom footer if needed */
+.hawstein-footer {
+    background: #222222;
+}
+
+.mdl-mega-footer .mdl-mega-footer__middle-section .mdl-mega-footer__drop-down-section ul li {
+    margin-bottom: 10px;
+}
+
+.no-hover {
+    pointer-events: none;
+}
+
+.hawstein-btn-red {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: white;
+    background: #FB0008;
+    border-color: #FB0008;
+    border-radius: 2px
+}
+
+.hawstein-btn-red:hover,
+.hawstein-btn-red:focus,
+.hawstein-btn-red:active {
+    color: white;
+    -webkit-box-shadow: 0 0 8px grey;
+    box-shadow: 0 0 8px grey;
+}
+
+.hawstein-btn-red-outline {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #FB0008;
+    background-color: #fff;
+    border-color: #FB0008;
+    border-radius: 2px
+}
+.hawstein-btn-red-outline:hover,
+.hawstein-btn-red-outline:focus,
+.hawstein-btn-red-outline:active {
+    color: #FB0008;
+    -webkit-box-shadow: 0 0 8px grey;
+    box-shadow: 0 0 8px grey;
+}
+
+.hawstein-center-content {
+    justify-content: center;
+}
+
+.content-grid.mdl-grid.hawstein-grid-content {
+    /* top/bottom: leave some space; left/right: keep the same: 8px */
+    padding: 0 8px 30px 8px;
+}
+.mdl-cell.hawstein-cell-content {
+    margin: 0px auto;
+}
+
+
+/***********  Landing Page  *************/
+
+section {
+    padding: 10px 0;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+
+    header .header-content {
+        padding: 175px 15px 150px;
+    }
+
+    header .header-content .header-content-inner {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 50px;
+    }
+
+    header .header-content .header-content-inner p {
+        font-size: 18px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        padding: 10px 40px;
+    }
+}
+
+/***********  Embed YouTube Video Responsively *************/
+/***********  Ref: https://embedresponsively.com/ *************/
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hawstein-bg-footer {
+    background-color: #222222;;
+}
+
+a {
+    color: #FB0008;
+}
+a:hover {
+    color: #FB0008;
+}
+
+/*** Feature Section ***/
+.features {
+    padding: 80px 0 120px;
+}
+
+.features .features-box {
+    margin-bottom: 30px;
+}
+
+.features .features-box > .fb-inn {
+    display: block;
+    padding: 30px 50px 30px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.features .features-box > .fb-inn .fb-thumb {
+    margin-bottom: 20px;
+}
+
+.features .features-box > .fb-inn h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.features .features-box > .fb-inn p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.feature-row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/*============================================================
+  FAQ Page
+==========================================================*/
+
+.faq-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-top: 35px;
+    font-weight: 500;
+}
+
+.faq-content {
+    font-size: 16px;
+}

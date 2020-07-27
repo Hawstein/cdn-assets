@@ -1,0 +1,123 @@
+
+/*============================================================
+BACKGROUND COLORS
+============================================================*/
+.db-bk-color-one {
+    background-color: #f55039;
+}
+
+.db-bk-color-two {
+    background-color: #46A6F7;
+}
+
+.db-bk-color-three {
+    background-color: #fff;
+}
+
+.db-bk-color-six {
+    background-color: #F59B24;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+    padding-bottom: 50px;
+}
+.db-button-color-square {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 5px;
+}
+
+.db-button-color-square:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+}
+
+
+.db-pricing-eleven {
+    margin: 50px auto 30px auto;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #212529;
+    line-height: 30px;
+    max-width: 336px;
+}
+
+.db-pricing-eleven ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.db-pricing-eleven ul li {
+    padding: 2px 0;
+    font-size: 15px;
+}
+
+.db-pricing-eleven ul li i {
+    margin-right: 5px;
+}
+
+
+.db-pricing-eleven .price {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #212529;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.db-pricing-eleven .price small {
+    color: #212529;
+    display: block;
+    font-size: 12px;
+    margin-top: 22px;
+}
+
+.db-pricing-eleven .type {
+    background-color: rgba(110, 96, 204, .8);
+    padding: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+}
+
+.db-pricing-eleven .pricing-footer {
+    padding: 20px;
+}
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+    margin-top: 10px;
+}
+
+.db-pricing-eleven.popular .price {
+    padding-top: 80px;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+/*============================================================
+  How To Subscribe Section
+==========================================================*/
+
+.img-how-to {
+    width: 80%;
+}
