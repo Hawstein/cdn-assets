@@ -290,8 +290,7 @@ details summary:after {
     transition: 200ms linear;
 }
 details[open] summary:after {
-    transform: rotate(45deg);
-    font-size: 2rem;
+    content: "-";
 }
 details summary {
     outline: 0;
