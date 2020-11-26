@@ -191,7 +191,7 @@ a:hover {
 
 /*** Feature Section ***/
 .features {
-    padding: 80px 0 120px;
+    padding: 10px 0 120px;
 }
 
 .features .features-box {
@@ -244,3 +244,59 @@ a:hover {
 .faq-content {
     font-size: 16px;
 }
+
+/*============================================================
+  details / summary
+==========================================================*/
+
+details[open] summary ~ * {
+    animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary {
+    width: 100%;
+    padding: 12px 0;
+    border-top: 1px solid #bdc3c7;
+    position: relative;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+}
+
+details summary:after {
+    content: "+";
+    color: black;
+    position: absolute;
+    line-height: 0;
+    margin-top: 20px;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 200ms linear;
+}
+details[open] summary:after {
+    transform: rotate(45deg);
+    font-size: 2rem;
+}
+details summary {
+    outline: 0;
+}
+details p {
+    font-size: 16px;
+}
+
